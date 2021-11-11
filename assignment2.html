@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Survey Form</title>
+</head>
+
+<body style="background-color: rgba(64, 224, 208, 0.514)"></body>
+
+<h1 style="text-align:center">Survey Form</h1>
+<form>
+    <table>
+        <tr>
+
+            <div style=" display:table; background-color:whitesmoke;text-align:center;width:80%; height:100%; font-size:25px; margin-left:auto;margin-right: auto;">
+                <h2 align=" center ">Let us know how we can improve freeCodeCamp<br></h2>
+        </tr>
+
+
+        <tr>
+            <td> <label for="Name:">Name:</label>
+
+                <input type=" text " id="Name" placeholder="Enter your name "></td>
+        </tr>
+
+
+        <tr>
+            <td> <label for="Email:">Email:</label>
+                <input type=" text " id="Email" placeholder="Enter your Email"></td>
+
+        </tr>
+
+        <tr>
+            <!--<label for="Age:">Age:</label>
+
+            <input type=" number " id="Age" name="Age"><br></tr>--->
+
+            <tr>
+                <td>Age</td>
+                <td><select>
+              <option>17 under</option>
+              <option>18 +</option>
+                 </select> </td>
+            </tr>
+            <td>
+                <label for=" roles ">Which option best describes your current role?</label>
+
+                <select name="roles " id="roles ">
+          <option value="student ">Student</option>
+          <option value="Intern ">Intern</option>
+          <option value="Instructor ">
+           Instructor
+          </option>
+        </select></td>
+        </tr>
+
+        <tr>
+            <br>
+            <td> How likely is that you would recommend freeCodeCamp to a friend?</td>
+
+            <td>
+                <input type="radio" value=" " />
+                <label>Definitely</label>
+
+
+                <input type="radio" value=" " />
+                <label>Maybe</label>
+
+                <input type="radio" value=" " />
+                <label>Not Sure</label></td>
+
+        </tr>
+        <td>
+            <label for="roles">What do you like most in FCC?</label>
+
+            <select>
+        <option value="challenges ">Challenges</option>
+        <option value="Values">Values</option>
+        <option value="Curriculum ">Curriculum</option>
+      </select></td>
+        <br />
+
+        <tr>
+            <td>
+                Things that should be improved in the future(Check all that apply)
+            </td>
+            <td>
+                <input type="checkbox" id="Front-end Projects " name="Front-end Projects" value="" />
+                <label for="Front-end Projects "> </label
+        ><br />
+
+        <input
+          type="checkbox"
+          id="Back-end Projects"
+          name="Back-end Projects"
+          value="Back-end Projects"
+        />
+        <label for="Back-end Projects "> </label
+        ><br />
+
+        <input
+          type="checkbox"
+          id="Data Visualization "
+          name="Data Visualization "
+          value="Data Visualization "
+        />
+        <label for="Data Visualization "> I</label
+        ><br /></td>
+
+        <td>
+        <input type="button " value="Submit " />
+</td>
+
+
+      </tr>
+    </table>
+  </form>
+</body>
